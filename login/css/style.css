@@ -1,0 +1,109 @@
+body {
+	background:#F5F7FA;
+ 	font-family: 'Montserrat', sans-serif;
+}
+
+label {
+	font-size:0.51rem;
+	text-transform:uppercase;
+	color:#4E4E4E;
+}
+
+input {
+	padding: 0.95rem 1rem !important;
+	font-size: 1rem !important;
+}
+
+button {
+	background-color:#00134C !important;
+	border-color: #00134C !important;
+}
+
+a {
+	color:#00134C;
+	font-weight:700;
+}
+
+h2 {
+	font-weight:700;
+	color:#00134C;
+}
+
+.card {
+	border:none;
+	border-radius:0.8rem;
+	box-shadow:1px 0px 10px 3px rgba(69, 91, 99, 0.04);
+}
+
+.input-group-text {
+	background:#FFF;
+	color:#cbcbcb;
+	height:auto;
+}
+
+.register {
+	font-size:13px;
+	text-align:center;
+}
+
+.bg-form {
+	border-top-right-radius:0rem;
+	border-bottom-right-radius:0rem;
+}
+
+.form-control:focus {
+  border-color: #00134C;
+  box-shadow: 0 0 0 0.2rem rgba(0, 19, 76, 0.25);
+}
+
+.bg-form .show-pass {
+	position:absolute;
+	right:5.2rem;
+	bottom:14.9rem;
+	z-index:1;
+	color:#cbcbcb;
+}
+
+.bg-white {
+	background:#FFF;
+	z-index:1;
+	border-top-right-radius:1rem;
+	border-bottom-right-radius:1rem;
+}
+
+.bg-image {
+	background:#00134C;
+	border-radius:1rem 1rem 1rem 1rem;
+	z-index:10;
+}
+
+.bg-image p {
+	color:#FFF;
+	letter-spacing:0.1rem;
+	line-height:2.93rem;
+	font-size:1.4rem;
+}
+
+.bg-image img {
+	margin:0 auto;
+	display:block;
+	overflow:hidden;
+}
+
+.infos {
+	text-align:center;
+}
+
+
+@media (max-width: 1199px) {  
+ 	.bg-form {
+	border-top-right-radius:0.8rem;
+	border-bottom-right-radius:0.8rem;
+	}
+}
+
+@media (max-width: 375px) {  
+	.bg-form .show-pass {
+	bottom:16.1rem;
+	}
+}
