@@ -1,0 +1,169 @@
+body {
+	background:#F5F7FA;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	box-shadow:1px 0px 10px 3px rgba(69, 91, 99, 0.04);
+	background:#FFF;
+}
+
+input {
+	border: 1px solid #CBCBCB;
+}
+
+button {
+	background-color:#00134C !important;
+	border-color: #00134C !important;
+}
+
+a {
+	color:#00134C;
+	font-weight:700;
+}
+
+a:hover {
+	color:#00134C;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:700;
+	color:#00134C;
+}
+
+.card {
+	border:none;
+	border-radius:0.8rem;
+	box-shadow:1px 0px 10px 3px rgba(69, 91, 99, 0.04);
+}
+
+.card-header { 
+	background:#FFF !important;
+	box-shadow:none !important;
+	border:0;
+}
+
+.card-header .title {
+	font-weight:400;
+}
+
+.form-check {
+	margin-bottom: .33rem;
+}
+
+.form-check-label {
+	font-size:.85rem;
+	color:#4E4E4E;
+}
+
+.form-check-input:checked {
+	background-color: #00134C;
+    border-color: #00134C;
+}
+
+.form-control:focus {
+  border-color: #00134C;
+  box-shadow: 0 0 0 0.2rem rgba(0, 19, 76, 0.25);
+}
+
+.bg-light {
+	background-color:#FFF !important;
+}
+
+.navbar-brand {
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+}
+
+.navbar-nav .nav-link {
+	font-size:.8rem;
+}
+
+.navbar-nav .nav-link img {
+	border:2px solid #00134C;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	width: auto;
+	padding: 7px 14px;
+}
+
+.navbar .navbar-nav {
+	text-decoration:none;
+}
+
+.navbar-nav .nav-link {
+	color:#00134c !important;
+}
+
+.navbar-nav i {
+	font-size:1.5rem;
+}
+
+.menu-sm i {
+	font-size:1.3rem;
+}
+
+.photo-sm img {
+	border:2px solid #00134C;
+}
+
+.certifications {
+	font-size:.7rem;
+	color:#989898;
+}
+
+.office {
+	font-size:.83rem;
+}
+
+.knowledge {
+	margin-left:1.2rem;
+	margin-right:1.2rem;
+	text-transform:uppercase;
+}
+
+.knowledge .bg-light {
+	color:#00134C;
+	border:1px solid #00134C;
+}
+
+.more {
+	text-decoration:none;
+	font-weight:400;
+	font-size:.95rem;
+}
+
+.user-photo {
+	border:2px solid #00134C;
+}
+
+.no-gutter {
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+
+.no-gutter-pl {
+	padding-left:0 !important;
+}
+
+.no-gutter-pr {
+	padding-right:0 !important;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+@media (max-width: 976px) {  
+	.no-gutter-md {
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+}
+
+
+
